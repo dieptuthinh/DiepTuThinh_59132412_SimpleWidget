@@ -70,6 +70,6 @@ public class MainActivity extends AppCompatActivity {
             TXacNhan += "Vào bếp nấu ăn; ";
 
         TXacNhan += edtSoThichKhac.getText().toString();
-        Toast.makeText(getApplicationContext(), TXacNhan, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), TXacNhan, Toast.LENGTH_LONG).show();
     }
 }
